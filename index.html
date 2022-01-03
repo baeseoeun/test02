@@ -1,0 +1,973 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://go.hbsmith.io/file_20200615_02_favicon.ico" rel="shortcut icon" type="image/ico">
+    <title>HBsmith - 인공지능 QA 테스트 대행 서비스</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="vendors/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendors/animate-css/animate.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/YouTube.HD.Thumbnail.css">
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+
+        <meta content="HBsmith - 인공지능 QA 테스트 대행 서비스" name="description">
+        <meta content="HBsmith, RPA, QA, DevOps, Software, Monitoring, 테스트, 자동화, 업무자동화, 모니터링, 소프트웨어, DeepQA, DeepMacro" name="keywords">
+        
+        <!-- 페이스북 -->
+        <meta content="HBsmith - 인공지능 QA 테스트 대행 서비스" property="og:description">
+        <meta content="img/thumbnail-2.jpg" property="og:image">
+        <meta content="325" property="og:image:height">
+        <meta content="600" property="og:image:width">
+        <meta content="HBsmith - 인공지능 QA 테스트 대행 서비스" property="og:title">
+        <meta content="website" property="og:type">
+        <meta content="https://go.hbsmith.io" property="og:url">
+        
+        <!-- 트위터 -->
+        <meta content="summary_large_image" name="twitter:card">
+        <meta content="HBsmith - 인공지능 QA 테스트 대행 서비스" name="twitter:description">
+        <meta content="img/thumbnail-2.jpg" name="twitter:image">
+        <meta content="HBsmith" name="twitter:site">
+        <meta content="HBsmith - 인공지능 QA 테스트 대행 서비스" name="twitter:title">
+        <link href="https://go.hbsmith.io" rel="canonical">
+        
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script type="text/javascript" src="https://pi.pardot.com/pd.js"></script>
+        <script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/_KUxfxvAoJ4k7SaKyLbja4Mi/recaptcha__en.js" 
+            crossorigin="anonymous" integrity="sha384-L/zNoQ/SnGT+Q4YLUXmYu6r2W6snppfG9V4gpbk0edjZShoDLHiRridHcHI2Jb+T"></script>
+        <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+        <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-91918910-2"></script>
+        
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+                function gtag() {
+                    dataLayer.push(arguments);
+                }
+
+                gtag('js', new Date());
+
+                gtag('config', 'UA-91918910-2');
+        </script>
+    
+    <script async="" src="https://www.google-analytics.com/gtm/js?id=GTM-NJ6VHXS&amp;t=gtag_UA_91918910_2&amp;cid=340606443.1589844400" type="text/javascript"></script>
+    <script type="text/javascript">
+        piAId = '846183';
+        piCId = '20760';
+        piHostname = 'pi.pardot.com';
+
+        (function() {
+            function async_load() {
+                var s = document.createElement('script');
+                s.type = 'text/javascript';
+                s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+                var c = document.getElementsByTagName('script')[0];
+                c.parentNode.insertBefore(s, c);
+            }
+
+            if (window.attachEvent) {
+                window.attachEvent('onload', async_load);
+            } else {
+                window.addEventListener('load', async_load, false);
+            }
+        })();
+    </script>
+    <script data-base-url="https://jsd-widget.atlassian.com" data-jsd-embedded="" data-key="a538a672-6c7c-44f3-b1b1-0d154777b4c2" src="https://jsd-widget.atlassian.com/assets/embed.js"></script>
+    <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" rel="stylesheet">
+       
+    <link rel="stylesheet" type="text/css" href="https://go.pardot.com/css/form.css?ver=2020-10-19">
+    <script type="text/javascript" src="https://go.pardot.com/js/piUtils.js?ver=2020-10-19"></script>
+    <script type="text/javascript" src="https://pi.pardot.com/analytics?ver=3&amp;visitor_id=32516883
+        &amp;visitor_id_sign=d3b89a858bc8aca8aa1b93e6b039d94dadf38bf7df9b898cf3b84dce0f767ff7ffc9eebd9c2e041565610f3e79dd497d3c8f99fc
+        &amp;pi_opt_in=&amp;campaign_id=20760&amp;account_id=846183&amp;
+        title=HBsmith%20-%20%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20QA%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EC%9E%90%EB%8F%99%ED%99%94%20%EC%84%9C%EB%B9%84%EC%8A%A4
+        &amp;url=https%3A%2F%2Fgo.hbsmith.io%2Fmain%2F&amp;referrer=">
+    </script>
+    <script type="text/javascript" src="https://go.hbsmith.io/analytics?conly=true&amp;visitor_id=32516883
+        &amp;visitor_id_sign=d3b89a858bc8aca8aa1b93e6b039d94dadf38bf7df9b898cf3b84dce0f767ff7ffc9eebd9c2e041565610f3e79dd497d3c8f99fc
+        &amp;pi_opt_in=&amp;campaign_id=20760&amp;account_id=846183&amp;title=HBsmith - 인공지능 QA 테스트 대행 서비스&amp;url=https://go.hbsmith.io/main/&amp;referrer=">
+    </script>
+    
+</head>
+<body>
+
+    <!--================Header Menu Area =================-->
+    <header class="header_area">	
+        <div class="main_menu">
+            <nav class="navbar navbar-expand-lg navbar-light" id="navbarSupportedContentbar">
+                <div class="container">
+                  <a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt="HBsmith logo"></a>
+                  <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" 
+                  data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+        
+                  <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav menu_nav ml-auto">
+                        <li class="nav-item"><a href="#" class="nav-link" data-nav-section="home"><span>처음으로</span></a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" data-nav-section="about"><span>제품소개</span></a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" data-nav-section="device"><span>테스트 환경</span></a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" data-nav-section="price"><span>표준 요금제</span></a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" data-nav-section="faq"><span>자주하는 질문</span></a></li>
+                    </ul>
+
+                    <ul class="nav navbar-nav menu_nav ml-auto">
+                      <li class="nav-item"><a href="https://app.hbsmith.io/auth/signin" class="nav-link"><span>로그인</span></a></li>
+                      <li class="nav-item"><a href="https://app.hbsmith.io/auth/signup" class="nav-link"><span>회원가입</span></a></li>
+                    </ul>
+
+                    <ul class="nav navbar-nav menu_nav ml-auto">
+                        <li class="btn_trial"><a href="#" data-nav-section="trial"><span>평가판 신청하기</span></a></li>
+                    </ul>
+
+                  </div>
+
+                </div>
+              </nav>
+        </div>
+    </header>
+    
+    <!--================Header Menu Area =================-->
+
+    <!--================Home Banner Area =================-->
+    <section class="home_banner_area" data-section="home">
+        <div class="banner_inner d-flex align-items-center">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 offset-lg-6 col-xl-5 offset-xl-7">
+                        <div class="banner_content">
+                            <h3>쉬지 않는 QA 테스트 대행</h3>
+                            <p>24시간 365일 쉬지 않고 일하는 인공지능 QA 테스트 대행을 <br>1 M/M 120만원으로 시작하세요.</p>
+
+                            <div id="gototrial">
+                            <a class="banner_btn" href="#" data-nav-section="trial">무료로 체험하기<i class="ti-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--================End Home Banner Area =================-->
+
+    <!--================ Start Blog Area =================-->
+    <section class="interview-area area-padding-top" data-section="customer">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div class="area-heading">
+                        <h4>고객사 인터뷰</h4>
+                        <p>HBsmith 고객들의 솔직한 서비스 사용 후기를 들어보세요.</p>
+                    </div>           
+                </div>
+            </div>
+
+            <div class="row interview-box">
+                <div class="col-lg-7 col-md-6 ">
+                    <div class="single-interview full_image">
+                        <div class="thumb">
+                            <iframe class="yt-hd-thumbnail" width="100%" height="400" src="https://www.youtube.com/embed/qIlEZIoycRw" 
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-5 col-md-6 ">
+                    <div class="single-interview">
+                        <div class="single-interview-content">
+                            <p class="tag">멋쟁이사자처럼</p>
+                            <p class="date">&nbsp;</p>
+                            <h4>"밤이건 낮이건 상관 없이 장애 발생 알림 메시지를 주어, 바로바로 대응할 수 있는 부분이 가장 좋았습니다."</h4>
+                            <div class="meta-bottom d-flex">
+                                <p class="likes">오 빈 팀장</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 col-md-6 ">
+                    <div class="single-interview">
+                        <div class="single-interview-content">
+                            <p class="tag">CREMA</p>
+                            <p class="date">&nbsp;</p> 
+                            <h4>"긴 시간의 검수 과정들이 훨씬 간결해졌고, 일의 효율성과 정확성도 높아졌습니다."</h4>
+                            <div class="meta-bottom d-flex">
+                                <p class="likes">박현아 팀장</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+   
+                <div class="col-lg-7 col-md-6">
+                    <div class="single-interview full_image">
+                        <div class="thumb">
+                            <iframe class="yt-hd-thumbnail" width="100%" height="400" src="https://www.youtube.com/embed/ELrWCkoKZVE" 
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    
+    <!--================ End Blog Area =================-->
+
+
+    <!--================ Start Brands Area =================-->
+    <section class="brands-area area-padding">
+        <div class="container">
+            
+            <div class="row">
+ 
+                <div class="col-lg-12">
+                    <div class="area-heading">
+                        <h5>HBsmith의 고객사</h5>
+                        <p>앞서가는 기업은 HBsmith를 이미 도입 중입니다.</p>
+                    </div>           
+                </div>
+
+                <div class="col-lg-3 col-sm-4 col-6">
+                    <div class="single_customers">
+                            <a href="#"><img src="img/c_lotteon.png" alt="lotteon logo"></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-4 col-6">
+                    <div class="single_customers">
+                            <a href="#"><img src="img/c_tmap.png" alt="tmap logo"></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-4 col-6">
+                    <div class="single_customers">
+                            <a href="#"><img src="img/c_sixshop.png" alt="sixshop logo"></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-4 col-6">
+                    <div class="single_customers">
+                            <a href="#"><img src="img/c_peoplefund.png" alt="peoplefund logo"></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-4 col-6">
+                    <div class="single_customers">
+                            <a href="#"><img src="img/c_kross.png" alt="kross logo"></a>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3 col-sm-4 col-6">
+                    <div class="single_customers">
+                            <a href="#"><img src="img/c_jober.png" alt="jober logo"></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-4 col-6">
+                    <div class="single_customers">
+                            <a href="#"><img src="img/c_crema.png" alt="crema logo"></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-4 col-6">
+                    <div class="single_customers">
+                            <a href="#"><img src="img/c_modoodoc.png" alt="modoodoc logo"></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-4 col-6">
+                    <div class="single_customers">
+                            <a href="#"><img src="img/c_dogmate.png" alt="dogmate logo"></a>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3 col-sm-4 col-6">
+                    <div class="single_customers">
+                            <a href="#"><img src="img/c_likelion.png" alt="likelion logo"></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-4 col-6">
+                    <div class="single_customers">
+                            <a href="#"><img src="img/c_albacheck.png" alt="payple logo"></a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-sm-4 col-6">
+                    <div class="single_customers">
+                            <a href="#"><img src="img/c_payple.png" alt="payple logo"></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-4 col-6">
+                    <div class="single_customers">
+                            <a href="#"><img src="img/c_maccaron.png" alt="maccaron logo"></a>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </section>
+
+
+    <!--================ End Brands Area =================-->
+
+
+    <!--================About  Area =================-->
+    <section class="about-area area-padding" data-section="about">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <div class="col-lg-6">
+                    <div class="area-heading">
+                        <h4>No 설치, No 코딩</h4>
+
+                        <p>서버, 클라이언트에 설치나 코딩이 필요 없습니다. <br>도구 설치, 테스트 코드 작성 등 초기 구축 비용 없이 누구나 쉽게 테스트 자동화를 구축할 수 있습니다.</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-lg-6">
+                            <div class="single-about">
+                                <div class="about-icon">
+                                    <i class="fas fa-bullseye"></i>
+                                </div>
+                                <div class="single-about-content">
+                                    <h5>맞춤형 자동화</h5>
+                                    <p>원하는 QA 테스트 항목만 말씀하세요. QA 테스트 자동화 bot 학습부터 실행, 분석까지 모든 과정을 대신 해드립니다. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <div class="single-about">
+                                <div class="about-icon">
+                                    <i class="fas fa-video"></i>
+                                </div>
+                                <div class="single-about-content">
+                                    <h5>테스트 결과 녹화</h5>
+                                    <p>모든 테스트 결과는 녹화되어 문제 발생의 상황과 사전 조건을 빠르게 확인할 수 있습니다.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--================About Area End =================-->
+
+
+    <!--================Service  Area =================-->
+    <section class="service-area area-padding">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="single-service">
+                        <div class="service-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="service-content">
+                            <h5>인공지능 bot</h5>
+                            <p>늘어나는 QA 테스트 때문에 고민이신가요?<br>인공지능 bot으로 해결하세요.<br>학습된 데이터로 테스트를 수행하며, 사람과 동일하게 클릭하고 눈으로 판단합니다.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="single-service">
+                        <div class="service-icon">
+                            <i class="far fa-list-alt"></i>
+                        </div>
+                        <div class="service-content">
+                            <h5>동시 테스트 기능</h5>
+                            <p>여러 개의 QA 테스트 항목을 한 번에 테스트 할 수 있습니다.<br> 인공지능 로봇으로 업무시간 최대 95% 단축, <br>비용 최대 93% 절감의 효과를 누려보세요. </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="single-service">
+                        <div class="service-icon">
+                            <i class="fas fa-history"></i>
+                        </div>
+                        <div class="service-content">
+                            <h5>24시간 점검</h5>
+                            <p>24시간 테스팅으로 밤 낮 없이 항상 내 서비스를 지켜줍니다.<br>문제 발생 시 전화, 문자, 카카오톡, 슬랙, 잔디 등 신속한 알림 서비스를 제공합니다.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    
+    <!--================Service Area end =================-->
+
+
+    <!--================Feature  Area =================-->
+
+    <section class="feature-area area-padding bg_one">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <img src="img/about2-2.png" alt="robot">
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="area-heading light">
+                        <h4>서비스 프로세스</h4>
+                        <p>서비스 등록부터 알림까지 모두 해결해드립니다.</p>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12 col-lg-12">
+                            <div class="single-feature d-flex">
+                                <div class="feature-icon">
+                                    <i>1</i>
+                                </div>
+                                <div class="single-feature-content">
+                                    <h5>평가판 신청하기</h5>
+                                    <p><span id="txt_trial"><a href="#" data-nav-section="trial">[평가판 신청하기]</a></span> 클릭 후 입력 양식을 작성해주세요. </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12 col-lg-12">
+                            <div class="single-feature d-flex">
+                                <div class="feature-icon">
+                                    <i>2</i>
+                                </div>
+                                <div class="single-feature-content">
+                                    <h5>테스트 시나리오 요청</h5>
+                                    <p>엑셀 파일, 서비스명 등 테스트 시나리오를 보내주세요.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12 col-lg-12">
+                            <div class="single-feature d-flex">
+                                <div class="feature-icon">
+                                    <i>3</i>
+                                </div>
+                                <div class="single-feature-content">
+                                    <h5>테스트 등록</h5>
+                                    <p>HBsmith에서 시나리오에 맞춰 테스트를 등록해드립니다.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12 col-lg-12">
+                            <div class="single-feature d-flex">
+                                <div class="feature-icon">
+                                    <i>4</i>
+                                </div>
+                                <div class="single-feature-content">
+                                    <h5>테스트 수행</h5>
+                                    <p>인공지능 로봇이 QA 테스트를 수행합니다.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12 col-lg-12">
+                            <div class="single-feature d-flex">
+                                <div class="feature-icon">
+                                    <i>5</i>
+                                </div>
+                                <div class="single-feature-content">
+                                    <h5>장애 발생 시 알림</h5>
+                                    <p>장애 발생 시 전화, 문자 등으로 신속하게 알려드립니다.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--================Feature Area End =================-->
+
+
+
+
+    <!--================About  Area =================-->
+    <section class="monitor-area area-padding">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-12">
+                    <div class="area-heading">
+                        <h4>App Console</h4>
+                        <p>QA 테스트 결과를 웹에서 바로 확인할 수 있습니다.</p>
+                    </div>           
+                </div>
+
+                <div class="col-lg-5">
+                    <div class="image-box">
+                        <img src="img/about3-1.png" alt="dashboard">
+                    </div>
+                </div>
+
+                <div class="offset-lg-1 col-lg-6">
+                    <div class="area-heading">
+                        <h5>Dashboard</h5>
+                        <h6>한 눈에 확인하는 테스트 결과</h6>
+
+                    <p>인공지능 bot의 테스트 현황을 확인할 수 있습니다. <br>가용성, 수행시간, 최근 문제 현황 정보 등을 제공합니다.</p>
+                    </div>
+
+            </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+
+                <div class="offset-lg-1 col-lg-6">
+                    <div class="area-heading">
+                        <h5>QA Test List</h5>
+                        <h6>동시에 수행되는 테스트 bot</h6>
+                        <p>여러 개의 내 서비스의 실제 사용 시나리오 테스트를 <br>로봇이 동시에 수행합니다.</p>
+                    </div>
+
+ 
+                </div>
+
+                <div class="col-lg-5">
+                    <div class="image-box">
+                        <img src="img/about3-2.png" alt="DeepQA List">
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-5">
+                    <div class="image-box">
+                        <img src="img/about3-3.png" alt="DeepQA Monitor">
+                    </div>
+                </div>
+
+                <div class="offset-lg-1 col-lg-6">
+                    <div class="area-heading">
+                        <h5>결과보기</h5>
+                        <h6>모두 기록되는 QA 테스트 결과</h6>
+                    <p>기능 테스트 결과를 O, X로 표시하고 계신가요? <br>인공지능 bot은 테스트 결과를 모두 기록합니다.</p>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--================About Area End =================-->
+
+    <!--================Device  Area =================--> <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+    <section class="device-area area-padding" data-section="device">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <div class="col-lg-6">
+                    <div class="area-heading">
+                        <h4>테스트 환경</h4>
+
+                        <p>15개 국가에, 200개 이상의 테스트 환경을 제공합니다.</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-lg-6">
+                            <div class="single-device">
+                                <div class="device-icon">
+                                    <i class="fas fa-globe-americas"></i>
+                                </div>
+                                <div class="single-device-content">
+                                    <h5>15개 국가</h5>
+                                    <p>호주, 바레인, 브라질, 캐나다, 프랑스, 독일, 홍콩, 인도, 아일랜드, 일본, 싱가포르, 대한민국, 스웨덴, 영국, 미국에서 QA 테스트를 수행합니다.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <div class="single-device">
+                                <div class="device-icon">
+                                    <i class="fab fa-chrome"></i>
+                                </div>
+                                <div class="single-device-content">
+                                    <h5>200개 이상의 테스트 환경</h5>
+                                    <p>Android, iOS, Window, macOS, Linux (Chrome, Explorer, Safari, Firefox 등) <br>다양한 테스트 환경을 지원합니다.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--================Device Area End =================-->
+
+
+
+
+
+    <!--================ Start Portfolio Area =================-->
+    <section class="pricing_area area-padding" data-section="price">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="area-heading">
+                        <h4>표준 요금제</h4>
+                        <p>HBsmith를 합리적인 가격으로 만나보세요. <br>(Support, 초기 셋팅비, 부가세 별도)</p>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="single-pricing">
+                        <div class="pricing-icon">
+                            <i class="far fa-lightbulb"></i>
+                        </div>
+                        <div class="single-pricing-content">
+                            <h5>Starter</h5>
+                            <h4>700,000원<span class="currency_line">&nbsp;/&nbsp;</span><span>month</span></h4>
+                            <ul>
+                                <li>인공지능 0.5 M/M 제공<br>&nbsp;</li>
+                            </ul>
+                            <a href="#">구매하기</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="single-pricing">
+                        <div class="pricing-icon">
+                            <i class="far fa-building"></i>
+                        </div>
+                        <div class="single-pricing-content">
+                            <h5>Business</h5>
+                            <h4>1,200,000원<span class="currency_line">&nbsp;/&nbsp;</span><span>month</span></h4>
+                            <ul>
+                                <li>인공지능 1 M/M 제공<br>&nbsp;</li>
+                            </ul>
+                            <a href="#">구매하기</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="single-pricing">
+                        <div class="pricing-icon">
+                            <i class="far fa-paper-plane"></i>
+                        </div>
+                        <div class="single-pricing-content">
+                            <h5>Enterprise</h5>
+                            <h4>Contact Us</h4>
+                            <ul>
+                                <li>맞춤 견적 서비스,<br>Premium Support</li>
+                            </ul>
+                            <a href="#">문의하기</a>
+                        </div>
+                    </div>
+                <div>
+            </div>
+
+        </div>
+
+    </section>
+    <!--================ End Pricing Area =================-->
+
+
+    <section class="pricinginfo_area area-padding">
+        <div class="container">
+            <div class="row">
+                <div class="pricing_info">
+                    <ul>
+                        <h4>부가 서비스</h4>
+                        <li>iOS/Android 실제 모바일 기기 QA 테스트: 1기기 당 월 300,000원</li>
+                        <li>문자 인증 서비스: 월 600,000원</li>
+                        <li>은행 입/출금 테스트: 월 700,000원</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--================ End Pricing Area2 =================-->
+
+
+
+
+ 
+
+    <!--================Trial  Area =================-->
+
+    <section class="trial area-padding bg_one" data-section="trial">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-12">
+                    <div class="trial-title">
+                        <h4>평가판 신청하기</h4>
+                        <p>지금 바로 한 달 무료 평가판을 체험해보세요.</p>
+                    </div>
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="trial-center col-lg-8">
+                <div class="iframe-wrap">
+                    <iframe src="https://go.hbsmith.io/l/845183/2021-01-26/mzh2p" width="100%" height="900" type="text/html" frameborder="0" allowTransparency="true" style="border: 0"></iframe>
+                </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+
+    <!--================Trial Area End =================-->
+
+
+    <!--================ Start Faq Area =================-->
+    <section class="faq_area area-padding" data-section="faq">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="area-heading">
+                        <h4>자주하는 질문</h4>
+                        <p>고객님들이 궁금해하시는 사항에 대한 답변입니다.</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-12">
+                    <div class="accordion" id="accordionExample">
+
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        HBsmith를 이용하려면 어떻게 해야하나요?
+                                    </button>
+
+                                </h5>
+                            </div>
+
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    무료 평가판을 신청해주세요. → <span id="txt_trial"><a href="#" data-nav-section="trial">[평가판 신청하기]</a></span> 클릭<br>
+                                    엑셀 파일을 보내주시거나, 서비스 URL, 모바일 앱 이름을 알려주시면 QA 테스트를 등록해드립니다.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        HBsmith로 어떤 테스트를 자동화 할 수 있나요?
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    P2P, 온라인 강의, 은행, 쇼핑, 금융권까지 다양한 고객 군으로 각기 다른 테스트 시나리오를 자동화로 구축하고 있습니다.<br>
+                                    보편적으로 등록하는 테스트 시나리오는 입출금, 결제, 로그인/로그아웃, 소셜 로그인, 아이디/비밀번호 찾기, 회원가입/탈퇴, 
+                                        상품 검색/확인, 주문취소, 예약/신청 확인, 제품 등록, 스마트 댓글, 적립금 확인, 이자율 조회, 리뷰 등록, 영상 업로드 확인 등이 등록되어 있으며, <br>
+                                    HBsmith에는 4,000개 이상의 테스트 시나리오가 등록되어 있습니다.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        동시에 여러 테스트가 가능한가요? 몇 개까지 동시에 할 수 있나요?
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    개수에 제한은 없습니다. <br>동시에 여러 테스트를 수행하여 고객님의 시간을 절약해 드립니다.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingFour">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        이미지 비교는 어떻게 하나요?
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    HBsmith만의 Visual Test Engine으로 실제 서비스 사용 시나리오 테스트를 로봇이 수행합니다.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingFive">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        테스트 완료 후 결과는 어떻게 알 수 있나요?
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    봇이 실행했던 테스트의 이력이 스크린 캡처로 남아있습니다. <br>
+                                    테스트에 문제가 발생하면 카카오톡, 전화, 문자, 이메일, 슬랙, 잔디, Webex 등으로 알림을 받을 수 있습니다.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingSix">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        알림을 못 받으면 어떡하죠?
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    1선, 2선, 3선 까지 전화 받으실 대상을 등록하여 중요한 오류 발생 시, 받으실 때까지 전화를 드립니다.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingSeven">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                        테스트 완료 후 결과는 어떻게 알 수 있나요?
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    봇이 실행했던 테스트의 이력이 스크린 캡처로 남아있습니다. <br>
+                                    테스트에 문제가 발생하면 카카오톡, 전화, 문자, 이메일, 슬랙 등으로 알림을 받을 수 있습니다.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingEight">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                        HBsmith 회사는 어디에 있나요?
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    위워크 삼성역(서울 강남구 테헤란로 507 위워크빌딩)에 있습니다.<br>
+                                    미팅 요청 주시면 온라인/오프라인으로 서비스 설명과 데모를 시연해드립니다.​<br>
+                                    <br>
+                                    미팅 요청 전화 : 070–4280–9333<br>
+                                    미팅 요청 메일 : hello@hbsmith.io
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+    <!--================ End Faq Area =================-->
+    
+    <!-- ================ start footer Area ================= -->
+    
+    <footer class="footer-area">
+    
+        <div class="container">
+
+            <div class="col-lg-12 single-footer-widget">
+                <div class="footer-logo">
+                    <a href="index.html"><img src="img/logo.png" alt="HBsmith logo"></a>
+                </div>
+                <div class="footer-text">
+                    <ul>
+                        <li><a href="#">서비스 이용약관</a></li>
+                        <li>|</li>
+                        <li><a href="#">개인정보 처리방침</a></li>
+                    </ul>
+                    <p>에이치비스미스 | 사업자등록번호: 291-88-00604<br>
+                        개인정보보호관리책임자: 윤제상 | 대표자: 한종원 | 전화번호: 070-4280-9333<br>
+                        본점소재지: 경기도 안양시 동안구 경수대로623번길 46, 108-403<br>
+                        기업부설연구소: 서울 강남구 테헤란로 507 위워크 13층 주식회사 에이치비스미스</p>
+                </div>
+                <div class="footer-bottom row align-items-center text-center text-lg-left no-gutters">
+                    <p class="footer-text m-0 col-lg-8 col-md-12">  
+                    Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+                    All rights reserved.</p> 
+                    <div class="col-lg-4 col-md-12 text-center text-lg-right footer-social">
+                        <a href="#"><i class="far fa-envelope"></i></a>
+                        <a href="https://www.facebook.com/hbsmith.page/"><i class="fab fa-facebook-square"></i></a>
+                        <a href="https://medium.com/hbsmith"><i class="fab fa-medium-m"></i></a>
+                        <a href="https://www.youtube.com/channel/UC90AZjR_XYpw7pGV3OSm3aA"><i class="ti-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    
+    </footer>
+
+<!-- ================ End footer Area ================= -->
+
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="js/jquery-2.2.4.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+<script src="js/jquery.ajaxchimp.min.js"></script>
+<script src="js/waypoints.min.js"></script>
+<script src="js/mail-script.js"></script>
+<script src="js/jquery.form.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/mail-script.js"></script>
+<script src="js/theme.js"></script>
+<script src="js/jQuery.YouTube.HD.Thumbnail.js"></script>
+</body>
+</html>
